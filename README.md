@@ -12,7 +12,19 @@ We want to make cocoa as discoverable and easy to order as specialty coffee, whi
 
 > **Our mission:** To become the world's golden standard for cocoa by discovering exceptional origins, perfecting the Impasto, and making a remarkable cup of cocoa a beloved daily ritual.
 
-**Status:** concept and website in development. Recipes, suppliers, locations, pricing, and opening plans are still being explored. **Mike leads this phase** of the brand and website.
+**Status:** concept and website in development. Recipes, suppliers, locations, pricing, and opening plans are still being explored.
+
+### ☀️ UUUB project team
+
+| Lead | Responsibility |
+| --- | --- |
+| **Nathan** | Product direction and final decisions |
+| **Ari** | Experience architecture, site structure, and UX direction |
+| **Cole** | Website development lead, testing, and deployment |
+| **Gal** | Marketing, positioning, and public-facing messaging |
+| **Mike** | Finance, budgets, and the business model |
+
+The team can shape the concept together while each lead owns a clear part of the work.
 
 ---
 
@@ -84,9 +96,11 @@ The visible counter, the cocoa wall, reusable hot/iced vessels, and perhaps a fu
 
 ---
 
-## 💻 Website build brief for Mike
+## 💻 Website build brief for Cole and the team
 
 ### The first release
+
+**Ari** defines the experience and responsive architecture; **Cole** leads the website implementation. **Gal** develops the marketing voice, **Mike** models the finances, and **Nathan** makes the final product calls.
 
 Build a **fast, mobile-first homepage with a small set of focused pages**. In one scroll on Home, a first-time visitor should understand what an Impasto is, see the initial drinks, explore candidate origins, and feel the ambition behind UUUB. The deeper pages let each idea breathe. The site should represent the current concept honestly rather than simulate a café that is already open.
 
