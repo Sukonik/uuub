@@ -1,2 +1,144 @@
-# uuub
-UUUB Cocoa House is building a new cocoa culture: origin-led drinks crafted through the Impasto ritual. Discover the world's cocoa, choose your strength and sweetness, and make a remarkable cup part of your day.
+# 🍫🌎 UUUB Cocoa House
+
+### One ritual. A world of cocoa.
+
+**UUUB Cocoa House** — **UUUB Cocoa** on a smaller label, **Uuubs** when we say it with a smile — is a new cocoa-house concept built around origin, preparation, and the everyday morning ritual.
+
+We want to make cocoa as discoverable and easy to order as specialty coffee, while giving it a culture and vocabulary of its own. This repository is the home of UUUB's website and early brand exploration.
+
+> **Our mission:** To become the world's golden standard for cocoa by discovering exceptional origins, perfecting the Impasto, and making a remarkable cup of cocoa a beloved daily ritual.
+
+**Status:** concept and website in development. Recipes, suppliers, locations, pricing, and opening plans are still being explored. **Mike leads this phase** of the brand and website.
+
+---
+
+## 🥄 Meet the Impasto
+
+☕ Coffee has espresso.  
+🍫 UUUB has **Impasto**.
+
+An **Impasto** is our proposed concentrated cocoa preparation: cocoa worked with a little hot water and sweetness to order into a smooth, rich base. It can be served on its own or become the heart of a hot or iced drink.
+
+**“One Impasto.”** That's the order we want to feel natural at the counter.
+
+This is a product concept, not a finalized recipe. We'll test the cocoa ingredient, texture, serving size, sweetness, and preparation method before describing a finished drink or its nutrition.
+
+## 🌎 Choose your origin
+
+UUUB is about discovering the people, places, and specific cocoa lots behind a cup. An origin is an invitation to learn and taste — not a promise that every cocoa from one country tastes alike.
+
+**Origins we would like to explore:**
+
+🇯🇲 Jamaica · 🇲🇽 Mexico · 🇬🇩 Grenada · 🇵🇪 Peru · 🇩🇴 Dominican Republic · 🇨🇮 Côte d'Ivoire / Ivory Coast
+
+**The wider cocoa map:**
+
+🇪🇨 Ecuador · 🇲🇬 Madagascar · 🇬🇭 Ghana · 🇻🇪 Venezuela · 🇧🇷 Brazil · 🇹🇿 Tanzania · 🇸🇧 Solomon Islands · 🇵🇬 Papua New Guinea
+
+Our first practical tasting goal is **three traceable cocoa lots prepared the same way**, including Grenada if a suitable supplier is found. We will add producer details and tasting notes only when we can verify and taste the actual cocoa.
+
+### 🗺️ The cocoa wall
+
+One day, a UUUB Cocoa House could have a wall-sized map that follows a cup from **origin → producer → bean → roast/grind → Impasto**. The website will explore that idea with a beautiful, accessible origin section. Prospective origins will be labeled as such; verified sourcing stories will be identified separately.
+
+## 🥤 The first drink experiments
+
+| Drink | The idea |
+| --- | --- |
+| 🍫 **Impasto** | A small, concentrated cocoa serving. |
+| 🥛 **Impasto Latte** | Impasto with steamed milk or a chosen milk alternative. |
+| 🧊 **Impasto Freddo** | A chilled cocoa drink that keeps the character of the base. |
+
+Later explorations may include 💧 an Americano-style cocoa with hot water, 🫧 a foam-topped drink, 💦 a smaller milk drink, ➕ a double Impasto, 🥤 a shaken iced version, and 🍨 an Impasto float. The names and recipes will follow the tasting, not lead it.
+
+### 🌀 The UUUB ritual
+
+① **Choose your origin** 🌎  
+② **Choose your strength** 💪  
+③ **Choose your sweetness** 🍬  
+④ **Watch the Impasto being made** 🥄  
+⑤ **Choose your form** — straight, latte, or freddo 🥛🧊  
+⑥ **Enjoy your cocoa** 🍫
+
+The goal is choice without a complicated order. A guest should be able to say **“Grenada Impasto Latte, lightly sweet”** and feel at home.
+
+## 🌅 A new morning ritual
+
+The morning worker spirit is central to UUUB: a thoughtful cocoa drink that fits the trip to work, a short pause before the day, or a conversation at the counter. We want the flavor to be bold, the sweetness adjustable, and the service quick enough for a real morning routine.
+
+> **A new morning ritual, made from cocoa.**
+
+We'll test taste, repeat orders, and preparation time before making bigger promises. Cocoa naturally contains caffeine and theobromine, but UUUB does **not** claim a guaranteed “no crash,” “no jitters,” cardiovascular benefit, or breakfast replacement. Any future nutrition or functional claim needs the finished recipe and appropriate review. See the [FDA's narrowly qualified cocoa-flavanol notice](https://www.fda.gov/food/hfp-constituent-updates/fda-announces-qualified-health-claim-cocoa-flavanols-high-flavanol-cocoa-powder-and-reduced-risk) and a [human theobromine study](https://pubmed.ncbi.nlm.nih.gov/23420115/) for why we are careful with that language.
+
+## 🏠 The house we imagine
+
+A UUUB Cocoa House would bring together a specialty beverage bar, a chocolate house, and an origin-discovery space. The making of the drink is part of the experience:
+
+**COCOA → PASTE → IMPASTO → DRINK**
+
+The visible counter, the cocoa wall, reusable hot/iced vessels, and perhaps a future Impasto machine are ideas to develop as the recipe and service model become real. They are not products or locations available today.
+
+---
+
+## 💻 Website build brief for Mike
+
+### The first release
+
+Build a **fast, mobile-first, single-page concept site**. In one scroll, a first-time visitor should understand what an Impasto is, see the three initial drink ideas, explore candidate origins, and feel the ambition behind UUUB. The site should represent the current concept honestly rather than simulate a café that is already open.
+
+| Section | What it should do |
+| --- | --- |
+| **Hero** 🍫 | Lead with **UUUB Cocoa House**, **“One ritual. A world of cocoa.”**, a striking cocoa visual, and **Explore the ritual**. |
+| **What is Impasto?** 🥄 | Show cocoa becoming the concentrated base, then a drink. Keep the explanation short. |
+| **Make it yours** ①②③ | Illustrate origin, strength/sweetness, and form without implying finalized recipes. |
+| **The cocoa map** 🌎 | Feature three origins to explore first, plus an accessible list of future candidates. |
+| **Morning at UUUB** 🌅 | Show the human routine and the speed/comfort the drink should offer. |
+| **The first drinks** 🥤 | Show Impasto, Latte, and Freddo as concepts; no invented prices or nutrition panels. |
+| **Mission and future house** 🏠 | Share the golden-standard ambition and the visible preparation experience. |
+| **Follow the journey** ✉️ | Use a real contact or consent-based signup if one exists; otherwise a clear **Coming soon** ending. |
+
+### The look and feel
+
+Use the **GoldenSun team website's clean UI and responsiveness as the quality bar**: crisp typography, intentional spacing, minimal clutter, subtle texture and grids, polished mobile navigation, and fast loading. Borrow its discipline and dark/gold energy while giving UUUB a distinct palette of **deep cocoa brown or near-black, cream, and warm gold**. Make **UUUB** the strong wordmark and **COCOA HOUSE** a quieter descriptor.
+
+Keep imagery rich but purposeful. A subtle cocoa-to-Impasto motion could be lovely, provided the page remains fast and respects reduced-motion preferences. The planning notes are full of emojis; the public UI can use them sparingly so the drink and typography lead.
+
+### The build
+
+Start with **semantic HTML, CSS, and vanilla JavaScript**, like the lightweight GoldenSun approach. Use CSS variables for colors and spacing, reusable section/card styles, relative asset paths, and a tidy system-font stack. Make the hero, menu cards, and map work beautifully from a narrow phone to a wide desktop with **no horizontal overflow**.
+
+Use keyboard-friendly interactions, readable contrast, descriptive image text, and a text/list alternative to any visual map. Avoid heavy dependencies and unnecessary build tooling for the first version.
+
+```text
+index.html
+styles.css
+script.js
+assets/
+README.md
+LICENSE
+.gitignore
+```
+
+For this static setup, the repository uses a small custom `.gitignore`. If a future version adds Vite/npm, use the **Node** template; if it adds a Python backend, add **Python** rules. HTML and CSS are source files to commit, not things to ignore.
+
+### ✅ First-release definition of done
+
+- Someone new can explain Impasto after visiting the page.
+- The three drink ideas and exploratory origins are easy to find on mobile.
+- The site communicates the mission and morning ritual in UUUB's own voice.
+- Keyboard, reduced-motion, and narrow-screen experiences are considered.
+- No fictional address, opening date, farm, supplier, price, nutrition claim, or checkout flow appears.
+
+## 🧪 What we need to learn next
+
+1. **Recipe:** Which cocoa base gives us the best straight, hot-with-milk, and iced drinks?
+2. **Origins:** Can we source three traceable lots and describe their actual differences honestly?
+3. **Service:** How quickly can a great Impasto be prepared for a morning queue?
+4. **Language:** Does “One Impasto” feel good to say and easy to understand?
+5. **Identity:** Which final wordmark and domain can support UUUB over time?
+
+## 📄 License and brand
+
+Website source code is licensed under the [Mozilla Public License 2.0](LICENSE). **UUUB**, **UUUB Cocoa House**, and original logos or brand artwork are brand assets; the software license does not grant rights to use those marks. Third-party images, fonts, maps, and other assets must carry their own appropriate permissions and attribution.
+
+**One ritual. A world of cocoa.** 🍫🌎
