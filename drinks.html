@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Drinks — UUUB Cocoa House</title>
+  <meta
+    name="description"
+    content="Impasto, Impasto Latte, and Impasto Freddo — the first UUUB drink concepts. Build a sample cup and share the order phrase; it's a preview, not a menu."
+  />
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="css/tokens.css" />
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="index.html">
+        <svg class="brand__mark uuub-mark" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+          <path d="M32 12c9 6 14 14 14 22a14 14 0 0 1-28 0c0-8 5-16 14-22z" />
+        </svg>
+        <span>
+          <span class="brand__name">UUUB</span>
+          <span class="brand__descriptor">Cocoa House</span>
+        </span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="impasto.html">Impasto</a></li>
+          <li><a class="nav__link" href="origins.html">Origins</a></li>
+          <li><a class="nav__link" href="drinks.html" aria-current="page">Drinks</a></li>
+          <li><a class="nav__link" href="our-house.html">Our House</a></li>
+        </ul>
+      </nav>
+      <div class="site-header__controls">
+        <button
+          class="nav-toggle"
+          aria-expanded="false"
+          aria-controls="nav-drawer"
+          aria-label="Open menu"
+        >
+          <span class="nav-toggle__bar"></span>
+          <span class="nav-toggle__bar"></span>
+          <span class="nav-toggle__bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="nav-drawer" id="nav-drawer" data-open="false" hidden>
+    <div class="nav-drawer__header">
+      <span class="brand">
+        <svg class="brand__mark uuub-mark" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+          <path d="M32 12c9 6 14 14 14 22a14 14 0 0 1-28 0c0-8 5-16 14-22z" />
+        </svg>
+        <span class="brand__name">UUUB</span>
+      </span>
+      <button class="nav-drawer__close" aria-label="Close menu">✕</button>
+    </div>
+    <ul class="nav-drawer__list">
+      <li><a class="nav-drawer__link" href="index.html">Home</a></li>
+      <li><a class="nav-drawer__link" href="impasto.html">Impasto</a></li>
+      <li><a class="nav-drawer__link" href="origins.html">Origins</a></li>
+      <li><a class="nav-drawer__link" href="drinks.html" aria-current="page">Drinks</a></li>
+      <li><a class="nav-drawer__link" href="our-house.html">Our House</a></li>
+    </ul>
+    <p class="nav-drawer__footer">UUUB Cocoa House 🍫 — One ritual. A world of cocoa.</p>
+  </div>
+
+  <main id="main">
+    <section class="section">
+      <div class="container">
+        <div class="page-head">
+          <p class="page-kicker">🥤 The first drinks</p>
+          <h1 class="page-title">Three ways to begin.</h1>
+          <p class="page-lede">
+            Early drink ideas, not a finished menu. No prices, no
+            nutrition panel — just the concepts we're testing, and a
+            preview of how an order might sound.
+          </p>
+        </div>
+
+        <div class="card-grid">
+          <article class="card">
+            <div class="card__top">
+              <h2 class="card__title">🍫 Impasto</h2>
+              <span class="badge">Concept</span>
+            </div>
+            <p class="card__tagline">The straight pour</p>
+            <p class="card__desc">A small, concentrated cocoa serving — the heart of every UUUB drink.</p>
+          </article>
+          <article class="card">
+            <div class="card__top">
+              <h2 class="card__title">🥛 Impasto Latte</h2>
+              <span class="badge">Concept</span>
+            </div>
+            <p class="card__tagline">With steamed milk</p>
+            <p class="card__desc">Impasto with steamed milk or a chosen milk alternative.</p>
+          </article>
+          <article class="card">
+            <div class="card__top">
+              <h2 class="card__title">🧊 Impasto Freddo</h2>
+              <span class="badge">Concept</span>
+            </div>
+            <p class="card__tagline">Chilled</p>
+            <p class="card__desc">A chilled cocoa drink that keeps the character of the base.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tight">
+      <div class="container">
+        <div class="page-head">
+          <p class="page-kicker">Build a sample cup</p>
+          <h2 class="page-title">Make it yours.</h2>
+          <p class="page-lede">
+            Choose an origin, form, strength, and sweetness to preview an
+            order phrase and get a shareable link. This is a concept
+            preview — not an order, a price, or a nutrition calculator.
+          </p>
+        </div>
+
+        <div class="builder">
+          <div class="builder__grid">
+            <div class="field">
+              <label for="drink-origin">Origin</label>
+              <select id="drink-origin">
+                <option value="grenada">🇬🇩 Grenada</option>
+                <option value="mexico">🇲🇽 Mexico</option>
+                <option value="peru">🇵🇪 Peru</option>
+                <option value="jamaica">🇯🇲 Jamaica</option>
+                <option value="dominican-republic">🇩🇴 Dominican Republic</option>
+                <option value="cote-divoire">🇨🇮 Côte d'Ivoire</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="drink-form">Form</label>
+              <select id="drink-form">
+                <option value="straight">Straight Impasto</option>
+                <option value="latte">Latte</option>
+                <option value="freddo">Freddo</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="drink-strength">Strength</label>
+              <select id="drink-strength">
+                <option value="mild">Mild</option>
+                <option value="classic" selected>Classic</option>
+                <option value="bold">Bold</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="drink-sweetness">Sweetness</label>
+              <select id="drink-sweetness">
+                <option value="unsweetened">Unsweetened</option>
+                <option value="light" selected>Lightly sweet</option>
+                <option value="sweet">Sweet</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="builder__result">
+            <p class="builder__phrase-label">Your order phrase</p>
+            <p class="builder__phrase" id="builder-phrase">—</p>
+            <p class="builder__note">
+              A concept preview, not an order, price, or availability
+              claim.
+            </p>
+            <div class="builder__actions">
+              <button type="button" class="btn btn--primary" id="builder-share">Share your cup →</button>
+              <button type="button" class="btn btn--secondary" id="builder-save">Save this cup</button>
+            </div>
+            <p class="builder__status" id="builder-status" role="status"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tight">
+      <div class="container">
+        <div class="panel">
+          <p class="panel-heading">Later explorations</p>
+          <p class="page-lede" style="margin-top: var(--uuub-space-3);">
+            Ideas we may test after the first three, clearly not on any
+            menu yet: an Americano-style cocoa with hot water, a
+            foam-topped drink, a smaller milk drink, a double Impasto, a
+            shaken iced version, and an Impasto float. The names and
+            recipes will follow the tasting, not lead it.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <div class="stack">
+        <p class="site-footer__brand">UUUB Cocoa House 🍫 — One ritual. A world of cocoa.</p>
+        <p class="site-footer__meta">Concept in development. No café, products, or launch date confirmed yet.</p>
+      </div>
+      <nav aria-label="Footer">
+        <ul class="site-footer__links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="impasto.html">Impasto</a></li>
+          <li><a href="origins.html">Origins</a></li>
+          <li><a href="drinks.html">Drinks</a></li>
+          <li><a href="our-house.html">Our House</a></li>
+          <li><a href="https://github.com/Sukonik/uuub">Repo</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/drinks.js"></script>
+</body>
+</html>

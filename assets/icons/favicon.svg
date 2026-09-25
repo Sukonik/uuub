@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="UUUB Cocoa House">
+  <circle cx="32" cy="32" r="32" fill="#100b08"/>
+  <path d="M32 12c9 6 14 14 14 22a14 14 0 0 1-28 0c0-8 5-16 14-22z" fill="#c99a55"/>
+  <path d="M32 18c0 8-2 12-2 18a2 2 0 0 0 4 0c0-6-2-10-2-18z" fill="#100b08" opacity="0.55"/>
+</svg>
