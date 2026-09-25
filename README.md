@@ -2,9 +2,19 @@
 
 ### One ritual. A world of cocoa.
 
-### 🌐 UUUB website — in development
+### 🌐 UUUB website — first draft live
 
-The README will link directly to the **live homepage and every published page** once the website launches, as the [GoldenSunAI README](https://github.com/Sukonik/goldensunai) does for its site. For now, the page map and build plan are below; no unpublished link is presented as live.
+[**Open UUUB Cocoa House 🍫**](https://sukonik.github.io/uuub/)
+
+| Explore | Live page |
+| --- | --- |
+| 🏠 Home | [One ritual. A world of cocoa.](https://sukonik.github.io/uuub/) |
+| 🥄 Impasto | [Cocoa → paste → drink](https://sukonik.github.io/uuub/impasto.html) |
+| 🌎 Origins | [Explore the cocoa map](https://sukonik.github.io/uuub/origins.html) |
+| 🥤 Drinks | [Make a sample cup](https://sukonik.github.io/uuub/drinks.html) |
+| 🏠 Our House | [Mission, morning ritual, and team](https://sukonik.github.io/uuub/our-house.html) |
+
+This is the responsive, text-and-emoji **concept preview**. Photography and a final logo come later. The site may grow into a dynamic experience as verified origins, menus, stories, and other real operational content become available. [Cole's handoff](docs/COLE_WEBSITE_HANDOFF.md) records the next architecture decisions.
 
 **UUUB Cocoa House** — **UUUB Cocoa** on a smaller label, **Uuubs** when we say it with a smile — is a new cocoa-house concept built around origin, preparation, and the everyday morning ritual.
 
@@ -12,7 +22,7 @@ We want to make cocoa as discoverable and easy to order as specialty coffee, whi
 
 > **Our mission:** To become the world's golden standard for cocoa by discovering exceptional origins, perfecting the Impasto, and making a remarkable cup of cocoa a beloved daily ritual.
 
-**Status:** concept and website in development. Recipes, suppliers, locations, pricing, and opening plans are still being explored.
+**Status:** concept in development; five-page website first draft live. Recipes, suppliers, locations, pricing, and opening plans are still being explored.
 
 ### ☀️ UUUB project team
 
@@ -132,7 +142,7 @@ Build a **fast, mobile-first homepage with a small set of focused pages**. In on
 
 Every page should share the UUUB header, responsive navigation, footer, and clear route back to Home. The logo links to Home; primary navigation reaches the other four pages; contextual links connect relevant sections. Keep relative links working both locally and on GitHub Pages under `/uuub/`.
 
-**When each page is published**, put a prominent **“Open UUUB Cocoa House”** link near the top of this README and add a short live page directory with direct links to Home, Impasto, Origins, Drinks, and Our House. Only link a page after its URL works; label anything unfinished as planned. Verify the README links and in-site navigation after deployment.
+**Live page links are listed at the top of this README.** Keep them current as the site evolves, and verify each route after deployment.
 
 ### The look and feel
 
