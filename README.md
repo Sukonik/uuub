@@ -24,11 +24,15 @@ We want to make cocoa as discoverable and easy to order as specialty coffee, whi
 
 **Status:** concept in development; five-page website first draft live. Recipes, suppliers, locations, pricing, and opening plans are still being explored.
 
-### 🧭 Website and future retail
+### 🧭 Three connected UUUB websites — proposed future structure
 
-The current five-page site can remain UUUB's main **brand and Impasto education destination**. It does not need a store, large image campaign, or checkout to be a complete landing site.
+| Experience | Job | Timing |
+| --- | --- | --- |
+| **1. UUUB / Impasto** | The fast, text-first brand home: mission, what Impasto is, cocoa origins, and the ritual. This five-page site is the landing destination. | **Live concept preview now** in this `uuub` repo. |
+| **2. UUUB Cocoa Houses** | Real places: location pages, hours, access, local menus, events, and eventually visiting or ordering details. | Build when an actual venue or pop-up has verified details to publish. |
+| **3. UUUB Products** | Packaged cocoa, slabs, kits, subscriptions, and their product information, fulfillment, and checkout when offered. | Build when products, pricing, inventory, and operations are ready. |
 
-If UUUB later sells slabs, subscriptions, or other products, plan a distinct **retail experience** with its own product, availability, payment, fulfillment, and support needs. A small informational product preview could be linked from this repository, but a real storefront would be easier to develop and operate as a **separate site and repository**, connected by the same brand and clear navigation. The domain and commerce platform can be chosen when the retail model is real. Gal's more expansive visuals and menu concepts remain [future explorations in issue #2](https://github.com/Sukonik/uuub/issues/2).
+Use one recognizable UUUB identity and clear navigation between the three. The brand site remains the home for learning Impasto; the Cocoa Houses experience answers **where to go**; the Products experience answers **what to buy or receive**. Informational previews can live here, but real store/location operations and commerce can become separate websites and repositories as each develops. Exact domains, hosting, and checkout choices are future decisions. No fictional location, inventory, or transaction belongs on the current site. Gal's more expansive visuals and menu concepts remain [future explorations in issue #2](https://github.com/Sukonik/uuub/issues/2).
 
 ### ☀️ UUUB project team
 
