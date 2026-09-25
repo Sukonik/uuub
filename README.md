@@ -26,6 +26,11 @@ We want to make cocoa as discoverable and easy to order as specialty coffee, whi
 
 The team can shape the concept together while each lead owns a clear part of the work.
 
+### 📋 Build handoffs
+
+- [**Cole's website build handoff**](docs/COLE_WEBSITE_HANDOFF.md) — five-page experience, GoldenSunAI responsive structure, UUUB design direction, no-key interactions, and delivery checks.
+- [**Site tools and skills evaluation**](docs/UUUB_SITE_TOOLS_AND_SKILLS.md) — the best build-time skills, no-key browser capabilities, and which social-list tools can wait.
+
 ---
 
 ## 🥄 Meet the Impasto
