@@ -14,7 +14,7 @@
 | 🥤 Drinks | [Make a sample cup](https://sukonik.github.io/uuub/drinks.html) |
 | 🏠 Our House | [Mission, morning ritual, and team](https://sukonik.github.io/uuub/our-house.html) |
 
-This is the responsive, text-and-emoji **concept preview**. Photography and a final logo come later. The site may grow into a dynamic experience as verified origins, menus, stories, and other real operational content become available. [Cole's handoff](docs/COLE_WEBSITE_HANDOFF.md) records the next architecture decisions.
+This is UUUB's **text-first, responsive landing site**: a fast place to discover Impasto, understand the cocoa ritual, and learn about the brand. Photography and video are optional future editorial explorations, not requirements for this site. The site can grow with verified origin and process stories while keeping reading and performance central. [Cole's handoff](docs/COLE_WEBSITE_HANDOFF.md) records the current architecture.
 
 **UUUB Cocoa House** — **UUUB Cocoa** on a smaller label, **Uuubs** when we say it with a smile — is a new cocoa-house concept built around origin, preparation, and the everyday morning ritual.
 
@@ -23,6 +23,12 @@ We want to make cocoa as discoverable and easy to order as specialty coffee, whi
 > **Our mission:** To become the world's golden standard for cocoa by discovering exceptional origins, perfecting the Impasto, and making a remarkable cup of cocoa a beloved daily ritual.
 
 **Status:** concept in development; five-page website first draft live. Recipes, suppliers, locations, pricing, and opening plans are still being explored.
+
+### 🧭 Website and future retail
+
+The current five-page site can remain UUUB's main **brand and Impasto education destination**. It does not need a store, large image campaign, or checkout to be a complete landing site.
+
+If UUUB later sells slabs, subscriptions, or other products, plan a distinct **retail experience** with its own product, availability, payment, fulfillment, and support needs. A small informational product preview could be linked from this repository, but a real storefront would be easier to develop and operate as a **separate site and repository**, connected by the same brand and clear navigation. The domain and commerce platform can be chosen when the retail model is real. Gal's more expansive visuals and menu concepts remain [future explorations in issue #2](https://github.com/Sukonik/uuub/issues/2).
 
 ### ☀️ UUUB project team
 
