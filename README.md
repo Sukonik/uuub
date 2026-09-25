@@ -40,6 +40,7 @@ The team can shape the concept together while each lead owns a clear part of the
 
 - [**Cole's website build handoff**](docs/COLE_WEBSITE_HANDOFF.md) — five-page experience, GoldenSunAI responsive structure, UUUB design direction, no-key interactions, and delivery checks.
 - [**Site tools and skills evaluation**](docs/UUUB_SITE_TOOLS_AND_SKILLS.md) — the best build-time skills, no-key browser capabilities, and which social-list tools can wait.
+- [**Gal's editorial visual direction and asset guide**](docs/GAL_VISUAL_DIRECTION_AND_ASSET_GUIDE.md) — Ari's revised Batch 2 briefs, Batch 1 image review, provenance rules, and website placement notes.
 
 ---
 
