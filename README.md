@@ -2,6 +2,10 @@
 
 ### One ritual. A world of cocoa.
 
+### 🌐 UUUB website — in development
+
+The README will link directly to the **live homepage and every published page** once the website launches, as the [GoldenSunAI README](https://github.com/Sukonik/goldensunai) does for its site. For now, the page map and build plan are below; no unpublished link is presented as live.
+
 **UUUB Cocoa House** — **UUUB Cocoa** on a smaller label, **Uuubs** when we say it with a smile — is a new cocoa-house concept built around origin, preparation, and the everyday morning ritual.
 
 We want to make cocoa as discoverable and easy to order as specialty coffee, while giving it a culture and vocabulary of its own. This repository is the home of UUUB's website and early brand exploration.
@@ -84,9 +88,9 @@ The visible counter, the cocoa wall, reusable hot/iced vessels, and perhaps a fu
 
 ### The first release
 
-Build a **fast, mobile-first, single-page concept site**. In one scroll, a first-time visitor should understand what an Impasto is, see the three initial drink ideas, explore candidate origins, and feel the ambition behind UUUB. The site should represent the current concept honestly rather than simulate a café that is already open.
+Build a **fast, mobile-first homepage with a small set of focused pages**. In one scroll on Home, a first-time visitor should understand what an Impasto is, see the initial drinks, explore candidate origins, and feel the ambition behind UUUB. The deeper pages let each idea breathe. The site should represent the current concept honestly rather than simulate a café that is already open.
 
-| Section | What it should do |
+| Home section | What it should do |
 | --- | --- |
 | **Hero** 🍫 | Lead with **UUUB Cocoa House**, **“One ritual. A world of cocoa.”**, a striking cocoa visual, and **Explore the ritual**. |
 | **What is Impasto?** 🥄 | Show cocoa becoming the concentrated base, then a drink. Keep the explanation short. |
@@ -97,22 +101,45 @@ Build a **fast, mobile-first, single-page concept site**. In one scroll, a first
 | **Mission and future house** 🏠 | Share the golden-standard ambition and the visible preparation experience. |
 | **Follow the journey** ✉️ | Use a real contact or consent-based signup if one exists; otherwise a clear **Coming soon** ending. |
 
+### 🧭 Core pages and README access
+
+| Page | Planned file | Purpose |
+| --- | --- | --- |
+| 🏠 **Home** | `index.html` | The complete introduction, hero, ritual preview, featured origins, morning moment, and links onward. |
+| 🥄 **Impasto** | `impasto.html` | The preparation concept, the order language, and a visual explanation of cocoa → paste → drink. |
+| 🌎 **Origins** | `origins.html` | An accessible cocoa map/list with exploratory origins and verified producer stories when available. |
+| 🥤 **Drinks** | `drinks.html` | The three starter drink concepts, customization, and later experiments clearly labeled. |
+| 🏠 **Our House** | `our-house.html` | The mission, morning culture, future physical experience, and the people behind the project. |
+
+Every page should share the UUUB header, responsive navigation, footer, and clear route back to Home. The logo links to Home; primary navigation reaches the other four pages; contextual links connect relevant sections. Keep relative links working both locally and on GitHub Pages under `/uuub/`.
+
+**When each page is published**, put a prominent **“Open UUUB Cocoa House”** link near the top of this README and add a short live page directory with direct links to Home, Impasto, Origins, Drinks, and Our House. Only link a page after its URL works; label anything unfinished as planned. Verify the README links and in-site navigation after deployment.
+
 ### The look and feel
 
-Use the **GoldenSun team website's clean UI and responsiveness as the quality bar**: crisp typography, intentional spacing, minimal clutter, subtle texture and grids, polished mobile navigation, and fast loading. Borrow its discipline and dark/gold energy while giving UUUB a distinct palette of **deep cocoa brown or near-black, cream, and warm gold**. Make **UUUB** the strong wordmark and **COCOA HOUSE** a quieter descriptor.
+Use the [GoldenSun team website](https://sukonik.github.io/goldensunai/) as the quality bar for clean UI and responsiveness: crisp typography, intentional spacing, minimal clutter, subtle texture and grids, polished mobile navigation, and fast loading. Borrow its discipline and dark/gold energy while giving UUUB a distinct palette of **deep cocoa brown or near-black, cream, and warm gold**. Make **UUUB** the strong wordmark and **COCOA HOUSE** a quieter descriptor.
 
 Keep imagery rich but purposeful. A subtle cocoa-to-Impasto motion could be lovely, provided the page remains fast and respects reduced-motion preferences. The planning notes are full of emojis; the public UI can use them sparingly so the drink and typography lead.
 
 ### The build
 
-Start with **semantic HTML, CSS, and vanilla JavaScript**, like the lightweight GoldenSun approach. Use CSS variables for colors and spacing, reusable section/card styles, relative asset paths, and a tidy system-font stack. Make the hero, menu cards, and map work beautifully from a narrow phone to a wide desktop with **no horizontal overflow**.
+Start with **semantic HTML, CSS, and vanilla JavaScript**, like the lightweight GoldenSun approach. Adapt the structure of its shared [design tokens](https://github.com/Sukonik/goldensunai/blob/main/css/tokens.css), [base styles](https://github.com/Sukonik/goldensunai/blob/main/css/base.css), [components](https://github.com/Sukonik/goldensunai/blob/main/css/components.css), [responsive rules](https://github.com/Sukonik/goldensunai/blob/main/css/responsive.css), and [navigation script](https://github.com/Sukonik/goldensunai/blob/main/js/main.js) to UUUB. Use UUUB-specific variables for color and spacing, reusable section/card styles, relative asset paths, and a tidy system-font stack. Make the hero, menu cards, and map work beautifully from a narrow phone to a wide desktop with **no horizontal overflow**.
 
-Use keyboard-friendly interactions, readable contrast, descriptive image text, and a text/list alternative to any visual map. Avoid heavy dependencies and unnecessary build tooling for the first version.
+Use keyboard-friendly interactions, readable contrast, descriptive image text, and a text/list alternative to any visual map. The desktop navigation should become a usable mobile menu with correct expanded state, focus behavior, and Escape-to-close handling; respect reduced-motion preferences. Avoid heavy dependencies and unnecessary build tooling for the first version.
 
 ```text
 index.html
-styles.css
-script.js
+impasto.html
+origins.html
+drinks.html
+our-house.html
+css/
+  tokens.css
+  base.css
+  components.css
+  responsive.css
+js/
+  main.js
 assets/
 README.md
 LICENSE
@@ -123,10 +150,11 @@ For this static setup, the repository uses a small custom `.gitignore`. If a fut
 
 ### ✅ First-release definition of done
 
-- Someone new can explain Impasto after visiting the page.
+- Someone new can explain Impasto after visiting Home, and reach the deeper page with one clear action.
 - The three drink ideas and exploratory origins are easy to find on mobile.
-- The site communicates the mission and morning ritual in UUUB's own voice.
-- Keyboard, reduced-motion, and narrow-screen experiences are considered.
+- All five pages share working navigation, feel like one UUUB site, and communicate the mission and morning ritual in UUUB's own voice.
+- Keyboard, reduced-motion, and narrow-screen experiences are considered, with no horizontal overflow or broken links.
+- After publication, the README links to the live homepage and each published page directly.
 - No fictional address, opening date, farm, supplier, price, nutrition claim, or checkout flow appears.
 
 ## 🧪 What we need to learn next
