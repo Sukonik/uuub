@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Impasto — UUUB Cocoa House</title>
+  <meta
+    name="description"
+    content="What is an Impasto? The UUUB preparation concept: cocoa worked into a concentrated paste, ordered your way — cocoa, paste, Impasto."
+  />
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="css/tokens.css" />
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="index.html">
+        <svg class="brand__mark uuub-mark" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+          <path d="M32 12c9 6 14 14 14 22a14 14 0 0 1-28 0c0-8 5-16 14-22z" />
+        </svg>
+        <span>
+          <span class="brand__name">UUUB</span>
+          <span class="brand__descriptor">Cocoa House</span>
+        </span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="impasto.html" aria-current="page">Impasto</a></li>
+          <li><a class="nav__link" href="origins.html">Origins</a></li>
+          <li><a class="nav__link" href="drinks.html">Drinks</a></li>
+          <li><a class="nav__link" href="our-house.html">Our House</a></li>
+        </ul>
+      </nav>
+      <div class="site-header__controls">
+        <button
+          class="nav-toggle"
+          aria-expanded="false"
+          aria-controls="nav-drawer"
+          aria-label="Open menu"
+        >
+          <span class="nav-toggle__bar"></span>
+          <span class="nav-toggle__bar"></span>
+          <span class="nav-toggle__bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="nav-drawer" id="nav-drawer" data-open="false" hidden>
+    <div class="nav-drawer__header">
+      <span class="brand">
+        <svg class="brand__mark uuub-mark" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+          <path d="M32 12c9 6 14 14 14 22a14 14 0 0 1-28 0c0-8 5-16 14-22z" />
+        </svg>
+        <span class="brand__name">UUUB</span>
+      </span>
+      <button class="nav-drawer__close" aria-label="Close menu">✕</button>
+    </div>
+    <ul class="nav-drawer__list">
+      <li><a class="nav-drawer__link" href="index.html">Home</a></li>
+      <li><a class="nav-drawer__link" href="impasto.html" aria-current="page">Impasto</a></li>
+      <li><a class="nav-drawer__link" href="origins.html">Origins</a></li>
+      <li><a class="nav-drawer__link" href="drinks.html">Drinks</a></li>
+      <li><a class="nav-drawer__link" href="our-house.html">Our House</a></li>
+    </ul>
+    <p class="nav-drawer__footer">UUUB Cocoa House 🍫 — One ritual. A world of cocoa.</p>
+  </div>
+
+  <main id="main">
+    <section class="section">
+      <div class="container">
+        <div class="page-head">
+          <p class="page-kicker">🥄 What is Impasto?</p>
+          <h1 class="page-title">Cocoa → paste → drink.</h1>
+          <p class="page-lede">
+            An Impasto is our proposed concentrated cocoa preparation:
+            cocoa worked with a little hot water and sweetness to order
+            into a smooth, rich base. It can be served on its own or
+            become the heart of a hot or iced drink. This is a product
+            concept, not a finalized recipe — we're still testing the
+            cocoa ingredient, texture, serving size, sweetness, and
+            preparation method.
+          </p>
+        </div>
+
+        <div class="transform">
+          <div class="transform__tabs" role="tablist" aria-label="Jump to a stage">
+            <button type="button" class="transform__tab" data-target="stage-cocoa" aria-selected="true">01 · Cocoa</button>
+            <button type="button" class="transform__tab" data-target="stage-paste" aria-selected="false">02 · Paste</button>
+            <button type="button" class="transform__tab" data-target="stage-impasto" aria-selected="false">03 · Impasto</button>
+          </div>
+
+          <div class="transform__all">
+            <article class="transform__stage" id="stage-cocoa">
+              <svg class="transform__art" viewBox="0 0 120 120" role="img" aria-label="Illustration of a cocoa pod">
+                <ellipse cx="60" cy="60" rx="34" ry="52" fill="var(--uuub-cocoa-500)" />
+                <path d="M60 12 C 52 40, 52 80, 60 108" fill="none" stroke="var(--uuub-cocoa-700)" stroke-width="2" opacity="0.6" />
+                <path d="M40 30 C 48 55, 48 70, 40 92" fill="none" stroke="var(--uuub-gold-500)" stroke-width="1.5" opacity="0.5" />
+                <path d="M80 30 C 72 55, 72 70, 80 92" fill="none" stroke="var(--uuub-gold-500)" stroke-width="1.5" opacity="0.5" />
+              </svg>
+              <p class="transform__index">01 · Cocoa</p>
+              <h2 class="transform__title">Origin cocoa</h2>
+              <p class="transform__desc">
+                It starts with a traceable lot from a candidate origin —
+                chosen for character, not volume. We'll name the actual
+                producer and process only once we've verified and tasted
+                it.
+              </p>
+            </article>
+
+            <article class="transform__stage" id="stage-paste">
+              <svg class="transform__art" viewBox="0 0 120 120" role="img" aria-label="Illustration of cocoa being worked into a paste">
+                <circle cx="60" cy="60" r="42" fill="var(--uuub-surface)" stroke="var(--uuub-border)" />
+                <path
+                  d="M60 60 m-26 0 a26 26 0 1 1 52 0 a20 20 0 1 1 -40 0 a14 14 0 1 1 28 0 a8 8 0 1 1 -16 0"
+                  fill="none"
+                  stroke="var(--uuub-gold-500)"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                />
+              </svg>
+              <p class="transform__index">02 · Paste</p>
+              <h2 class="transform__title">Worked to a paste</h2>
+              <p class="transform__desc">
+                Cocoa worked with a little hot water and sweetness to
+                order — no pre-mixed syrup, no fixed recipe yet. The
+                texture and sweetness level are exactly what we're
+                testing.
+              </p>
+            </article>
+
+            <article class="transform__stage" id="stage-impasto">
+              <svg class="transform__art" viewBox="0 0 120 120" role="img" aria-label="Illustration of a finished Impasto cup">
+                <path d="M34 46 h52 l-6 44 a10 10 0 0 1 -10 8 h-20 a10 10 0 0 1 -10 -8 z" fill="var(--uuub-surface)" stroke="var(--uuub-gold-500)" stroke-width="2" />
+                <path d="M86 52 h6 a10 10 0 0 1 0 20 h-8" fill="none" stroke="var(--uuub-gold-500)" stroke-width="2" />
+                <path d="M46 30 q4 -8 0 -14" fill="none" stroke="var(--uuub-text-muted)" stroke-width="2" stroke-linecap="round" opacity="0.6" />
+                <path d="M60 30 q4 -8 0 -14" fill="none" stroke="var(--uuub-text-muted)" stroke-width="2" stroke-linecap="round" opacity="0.6" />
+              </svg>
+              <p class="transform__index">03 · Impasto</p>
+              <h2 class="transform__title">The concentrated base</h2>
+              <p class="transform__desc">
+                A smooth, rich Impasto — ready straight, or as the heart
+                of a Latte or Freddo. "One Impasto." is the order we want
+                to feel natural at the counter.
+              </p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tight">
+      <div class="container">
+        <div class="split">
+          <div class="panel">
+            <p class="panel-heading">The order language</p>
+            <p class="page-lede" style="margin-top: var(--uuub-space-3);">
+              A guest should be able to say something as simple as:
+            </p>
+            <p class="hero__tagline" style="margin-top: var(--uuub-space-4);">
+              "Grenada Impasto Latte, lightly sweet."
+            </p>
+            <p class="page-lede--muted">
+              Origin, strength, sweetness, form — in one sentence, without
+              a complicated order. Try building your own on the Drinks
+              page.
+            </p>
+          </div>
+          <div class="panel">
+            <p class="panel-heading">What remains in testing</p>
+            <ul class="stack" style="margin-top: var(--uuub-space-4); gap: var(--uuub-space-3);">
+              <li class="step__desc">Which cocoa base gives the best straight, hot-with-milk, and iced results.</li>
+              <li class="step__desc">Texture, serving size, and sweetness levels.</li>
+              <li class="step__desc">How quickly a great Impasto can be prepared for a morning queue.</li>
+              <li class="step__desc">Whether "One Impasto." feels natural to say and easy to understand.</li>
+            </ul>
+            <p class="page-lede--muted">
+              No recipe, price, or nutrition claim is finalized. See more
+              in <a class="btn btn--ghost" style="padding: 0; display: inline;" href="our-house.html">Our House</a>.
+            </p>
+          </div>
+        </div>
+
+        <div class="page-actions page-actions--lg">
+          <a class="btn btn--primary" href="drinks.html">Make it yours →</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <div class="stack">
+        <p class="site-footer__brand">UUUB Cocoa House 🍫 — One ritual. A world of cocoa.</p>
+        <p class="site-footer__meta">Concept in development. No café, products, or launch date confirmed yet.</p>
+      </div>
+      <nav aria-label="Footer">
+        <ul class="site-footer__links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="impasto.html">Impasto</a></li>
+          <li><a href="origins.html">Origins</a></li>
+          <li><a href="drinks.html">Drinks</a></li>
+          <li><a href="our-house.html">Our House</a></li>
+          <li><a href="https://github.com/Sukonik/uuub">Repo</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>
+    (function () {
+      "use strict";
+      var tabs = document.querySelectorAll(".transform__tab");
+      var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+      tabs.forEach(function (tab) {
+        tab.addEventListener("click", function () {
+          tabs.forEach(function (t) {
+            t.setAttribute("aria-selected", t === tab ? "true" : "false");
+          });
+          var target = document.getElementById(tab.dataset.target);
+          if (target) {
+            target.scrollIntoView({
+              behavior: reduceMotion ? "auto" : "smooth",
+              block: "center"
+            });
+          }
+        });
+      });
+    })();
+  </script>
+</body>
+</html>

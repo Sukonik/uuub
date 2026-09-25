@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Origins — UUUB Cocoa House</title>
+  <meta
+    name="description"
+    content="The UUUB cocoa map: candidate origins we'd like to explore first, and the wider map of places we're watching. Exploratory origins are labeled as such."
+  />
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="css/tokens.css" />
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="index.html">
+        <svg class="brand__mark uuub-mark" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+          <path d="M32 12c9 6 14 14 14 22a14 14 0 0 1-28 0c0-8 5-16 14-22z" />
+        </svg>
+        <span>
+          <span class="brand__name">UUUB</span>
+          <span class="brand__descriptor">Cocoa House</span>
+        </span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="impasto.html">Impasto</a></li>
+          <li><a class="nav__link" href="origins.html" aria-current="page">Origins</a></li>
+          <li><a class="nav__link" href="drinks.html">Drinks</a></li>
+          <li><a class="nav__link" href="our-house.html">Our House</a></li>
+        </ul>
+      </nav>
+      <div class="site-header__controls">
+        <button
+          class="nav-toggle"
+          aria-expanded="false"
+          aria-controls="nav-drawer"
+          aria-label="Open menu"
+        >
+          <span class="nav-toggle__bar"></span>
+          <span class="nav-toggle__bar"></span>
+          <span class="nav-toggle__bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="nav-drawer" id="nav-drawer" data-open="false" hidden>
+    <div class="nav-drawer__header">
+      <span class="brand">
+        <svg class="brand__mark uuub-mark" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+          <path d="M32 12c9 6 14 14 14 22a14 14 0 0 1-28 0c0-8 5-16 14-22z" />
+        </svg>
+        <span class="brand__name">UUUB</span>
+      </span>
+      <button class="nav-drawer__close" aria-label="Close menu">✕</button>
+    </div>
+    <ul class="nav-drawer__list">
+      <li><a class="nav-drawer__link" href="index.html">Home</a></li>
+      <li><a class="nav-drawer__link" href="impasto.html">Impasto</a></li>
+      <li><a class="nav-drawer__link" href="origins.html" aria-current="page">Origins</a></li>
+      <li><a class="nav-drawer__link" href="drinks.html">Drinks</a></li>
+      <li><a class="nav-drawer__link" href="our-house.html">Our House</a></li>
+    </ul>
+    <p class="nav-drawer__footer">UUUB Cocoa House 🍫 — One ritual. A world of cocoa.</p>
+  </div>
+
+  <main id="main">
+    <section class="section">
+      <div class="container">
+        <div class="page-head">
+          <p class="page-kicker">🌎 Choose your origin</p>
+          <h1 class="page-title">The cocoa wall.</h1>
+          <p class="page-lede">
+            UUUB is about discovering the people, places, and specific
+            cocoa lots behind a cup. An origin is an invitation to learn
+            and taste — not a promise that every cocoa from one country
+            tastes alike. Select any origin below; each one is labeled
+            <strong>exploring</strong> until we can verify and taste the
+            actual cocoa, at which point it becomes
+            <strong>verified</strong>.
+          </p>
+        </div>
+
+        <div class="origin-layout">
+          <div>
+            <div class="origin-grid" id="origin-grid" aria-label="Origins"></div>
+          </div>
+          <div class="origin-detail" id="origin-detail" aria-live="polite">
+            <p class="origin-detail__empty">Loading origins…</p>
+          </div>
+        </div>
+
+        <noscript>
+          <p class="page-lede--muted" style="margin-top: var(--uuub-space-6);">
+            JavaScript is off, so the interactive explorer above won't
+            load — the full list below has the same information.
+          </p>
+        </noscript>
+
+        <div class="origin-list-fallback" id="origin-list-fallback" style="margin-top: var(--uuub-space-8);">
+          <h2 class="panel-heading" style="margin-bottom: var(--uuub-space-4);">Full origin list</h2>
+          <ul class="stack" style="gap: var(--uuub-space-3);">
+            <li class="step__desc">🇬🇩 Grenada — Exploring</li>
+            <li class="step__desc">🇲🇽 Mexico — Exploring</li>
+            <li class="step__desc">🇵🇪 Peru — Exploring</li>
+            <li class="step__desc">🇯🇲 Jamaica — Exploring</li>
+            <li class="step__desc">🇩🇴 Dominican Republic — Exploring</li>
+            <li class="step__desc">🇨🇮 Côte d'Ivoire — Exploring</li>
+            <li class="step__desc">🇪🇨 Ecuador — Exploring</li>
+            <li class="step__desc">🇲🇬 Madagascar — Exploring</li>
+            <li class="step__desc">🇬🇭 Ghana — Exploring</li>
+            <li class="step__desc">🇻🇪 Venezuela — Exploring</li>
+            <li class="step__desc">🇧🇷 Brazil — Exploring</li>
+            <li class="step__desc">🇹🇿 Tanzania — Exploring</li>
+            <li class="step__desc">🇸🇧 Solomon Islands — Exploring</li>
+            <li class="step__desc">🇵🇬 Papua New Guinea — Exploring</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tight">
+      <div class="container">
+        <div class="panel">
+          <p class="panel-heading">Our first practical tasting goal</p>
+          <p class="page-lede" style="margin-top: var(--uuub-space-3);">
+            Three traceable cocoa lots prepared the same way, including
+            Grenada if a suitable supplier is found. We'll add producer
+            details and tasting notes only when we can verify and taste
+            the actual cocoa — no invented flavor notes, ever.
+          </p>
+          <div class="page-actions">
+            <a class="btn btn--primary" href="drinks.html">Explore drinks →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <div class="stack">
+        <p class="site-footer__brand">UUUB Cocoa House 🍫 — One ritual. A world of cocoa.</p>
+        <p class="site-footer__meta">Concept in development. No café, products, or launch date confirmed yet.</p>
+      </div>
+      <nav aria-label="Footer">
+        <ul class="site-footer__links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="impasto.html">Impasto</a></li>
+          <li><a href="origins.html">Origins</a></li>
+          <li><a href="drinks.html">Drinks</a></li>
+          <li><a href="our-house.html">Our House</a></li>
+          <li><a href="https://github.com/Sukonik/uuub">Repo</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/origins.js"></script>
+</body>
+</html>

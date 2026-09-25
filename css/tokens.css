@@ -1,0 +1,93 @@
+/* ==========================================================================
+   UUUB Cocoa House — Design Tokens
+   One ritual. A world of cocoa. 🍫🌎
+   ========================================================================== */
+
+:root {
+  /* -- Surfaces -------------------------------------------------------- */
+  --uuub-bg: #100b08;
+  --uuub-bg-raised: #170f0a;
+  --uuub-surface: #241711;
+  --uuub-surface-card: #2c1c14;
+  --uuub-line: #3a2a1e;
+
+  /* -- Cream family ------------------------------------------------------ */
+  --uuub-cream-100: #fbf6ec;
+  --uuub-cream-300: #f4ead9;
+  --uuub-cream-500: #e6d4b8;
+
+  /* -- Cocoa family -------------------------------------------------------*/
+  --uuub-cocoa-300: #b17c55;
+  --uuub-cocoa-500: #8c5032;
+  --uuub-cocoa-700: #5c331f;
+
+  /* -- Gold accent ---------------------------------------------------------*/
+  --uuub-gold-300: #e6c98a;
+  --uuub-gold-500: #c99a55;
+  --uuub-gold-700: #a67a3a;
+
+  /* -- Terracotta accent (restrained, for verified origin stories) --------*/
+  --uuub-terracotta: #b5613f;
+
+  /* -- Text --------------------------------------------------------------*/
+  --uuub-text-primary: var(--uuub-cream-300);
+  --uuub-text-secondary: #cbb79d;
+  --uuub-text-muted: #8f7c69;
+  --uuub-text-on-gold: #1c1108;
+
+  /* -- Semantic aliases --------------------------------------------------*/
+  --uuub-border: var(--uuub-line);
+  --uuub-accent: var(--uuub-gold-500);
+  --uuub-accent-strong: var(--uuub-gold-300);
+  --uuub-focus: var(--uuub-gold-300);
+
+  /* -- Status (origin exploring vs verified) -------------------------------*/
+  --uuub-status-exploring: var(--uuub-text-muted);
+  --uuub-status-verified: var(--uuub-terracotta);
+
+  /* -- Typography ---------------------------------------------------------*/
+  --uuub-font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  --uuub-font-mono: ui-monospace, "SF Mono", "Cascadia Code", "Roboto Mono",
+    Consolas, monospace;
+
+  --uuub-fs-xs: 0.75rem;
+  --uuub-fs-sm: 0.875rem;
+  --uuub-fs-base: 1rem;
+  --uuub-fs-md: 1.125rem;
+  --uuub-fs-lg: 1.375rem;
+  --uuub-fs-xl: 1.875rem;
+  --uuub-fs-2xl: 2.5rem;
+  --uuub-fs-3xl: 3.25rem;
+
+  --uuub-lh-tight: 1.15;
+  --uuub-lh-normal: 1.5;
+
+  /* -- Readable content width ---------------------------------------------*/
+  --uuub-measure: 36rem;
+
+  /* -- Spacing scale ------------------------------------------------------*/
+  --uuub-space-1: 0.25rem;
+  --uuub-space-2: 0.5rem;
+  --uuub-space-3: 0.75rem;
+  --uuub-space-4: 1rem;
+  --uuub-space-5: 1.5rem;
+  --uuub-space-6: 2rem;
+  --uuub-space-8: 3rem;
+  --uuub-space-10: 4rem;
+  --uuub-space-12: 6rem;
+
+  /* -- Shape / effects ------------------------------------------------------*/
+  --uuub-radius-sm: 6px;
+  --uuub-radius-md: 12px;
+  --uuub-radius-lg: 20px;
+
+  --uuub-shadow-card: 0 1px 0 rgba(201, 154, 85, 0.08) inset,
+    0 8px 24px rgba(0, 0, 0, 0.4);
+
+  --uuub-container: 72rem;
+
+  --uuub-duration-fast: 120ms;
+  --uuub-duration-normal: 220ms;
+  --uuub-ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+}

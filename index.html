@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>UUUB Cocoa House — One ritual. A world of cocoa.</title>
+  <meta
+    name="description"
+    content="UUUB Cocoa House is a new cocoa-house concept built around origin, preparation, and the everyday morning ritual — home of the Impasto."
+  />
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="css/tokens.css" />
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="index.html">
+        <svg class="brand__mark uuub-mark" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+          <path d="M32 12c9 6 14 14 14 22a14 14 0 0 1-28 0c0-8 5-16 14-22z" />
+        </svg>
+        <span>
+          <span class="brand__name">UUUB</span>
+          <span class="brand__descriptor">Cocoa House</span>
+        </span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="impasto.html">Impasto</a></li>
+          <li><a class="nav__link" href="origins.html">Origins</a></li>
+          <li><a class="nav__link" href="drinks.html">Drinks</a></li>
+          <li><a class="nav__link" href="our-house.html">Our House</a></li>
+        </ul>
+      </nav>
+      <div class="site-header__controls">
+        <button
+          class="nav-toggle"
+          aria-expanded="false"
+          aria-controls="nav-drawer"
+          aria-label="Open menu"
+        >
+          <span class="nav-toggle__bar"></span>
+          <span class="nav-toggle__bar"></span>
+          <span class="nav-toggle__bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="nav-drawer" id="nav-drawer" data-open="false" hidden>
+    <div class="nav-drawer__header">
+      <span class="brand">
+        <svg class="brand__mark uuub-mark" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+          <path d="M32 12c9 6 14 14 14 22a14 14 0 0 1-28 0c0-8 5-16 14-22z" />
+        </svg>
+        <span class="brand__name">UUUB</span>
+      </span>
+      <button class="nav-drawer__close" aria-label="Close menu">✕</button>
+    </div>
+    <ul class="nav-drawer__list">
+      <li><a class="nav-drawer__link" href="index.html" aria-current="page">Home</a></li>
+      <li><a class="nav-drawer__link" href="impasto.html">Impasto</a></li>
+      <li><a class="nav-drawer__link" href="origins.html">Origins</a></li>
+      <li><a class="nav-drawer__link" href="drinks.html">Drinks</a></li>
+      <li><a class="nav-drawer__link" href="our-house.html">Our House</a></li>
+    </ul>
+    <p class="nav-drawer__footer">UUUB Cocoa House 🍫 — One ritual. A world of cocoa.</p>
+  </div>
+
+  <main id="main">
+    <section class="hero">
+      <div class="grain-field" aria-hidden="true"></div>
+      <div class="hero__ribbon" aria-hidden="true">
+        <svg viewBox="0 0 400 400" role="img" focusable="false">
+          <defs>
+            <radialGradient id="heroRibbonGlow" cx="50%" cy="72%" r="60%">
+              <stop offset="0%" class="hr-stop-1" stop-opacity="0.85" />
+              <stop offset="45%" class="hr-stop-2" stop-opacity="0.32" />
+              <stop offset="100%" class="hr-stop-3" />
+            </radialGradient>
+          </defs>
+          <rect x="60" y="180" width="280" height="280" class="hr-glow" />
+          <ellipse class="hr-pool" cx="200" cy="300" rx="120" ry="46" />
+          <ellipse class="hr-ripple" cx="200" cy="300" rx="80" ry="30" />
+          <ellipse class="hr-ripple hr-ripple--b" cx="200" cy="300" rx="140" ry="54" />
+          <path class="hr-stream" d="M200 40 C 194 120, 206 180, 200 252" />
+          <g class="hr-bean">
+            <circle cx="130" cy="262" r="4" />
+            <circle cx="152" cy="330" r="3" class="hr-bean--pulse" />
+            <circle cx="258" cy="270" r="3.5" />
+            <circle cx="278" cy="322" r="3" class="hr-bean--pulse hr-bean--pulse-b" />
+            <circle cx="200" cy="232" r="3" />
+          </g>
+          <text class="hr-label" x="112" y="382">COCOA · PASTE · IMPASTO</text>
+        </svg>
+      </div>
+      <div class="container">
+        <p class="hero__eyebrow">🍫 UUUB Cocoa House</p>
+        <h1 class="hero__title">UUUB</h1>
+        <p class="hero__tagline">One ritual. A world of cocoa.</p>
+        <p class="hero__lede">
+          Coffee has espresso. UUUB has <strong>Impasto</strong> — a
+          concentrated cocoa preparation we're building into a beloved
+          morning ritual, one traceable origin at a time.
+        </p>
+        <p class="hero__signature">Concept and website in development.</p>
+        <div class="page-actions">
+          <a class="btn btn--primary" href="impasto.html">Explore the ritual →</a>
+          <a class="btn btn--secondary" href="origins.html">See the origins →</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="transformation">
+      <div class="container">
+        <div class="page-head">
+          <p class="page-kicker">What is Impasto?</p>
+          <h2 class="page-title">Cocoa, worked into a ritual.</h2>
+          <p class="page-lede">
+            An Impasto is our proposed concentrated cocoa preparation:
+            cocoa worked with a little hot water and sweetness to order
+            into a smooth, rich base. It can stand alone or become the
+            heart of a hot or iced drink. This is a product concept, not a
+            finalized recipe.
+          </p>
+        </div>
+
+        <div class="step-row">
+          <div class="step">
+            <p class="step__index">01 · COCOA</p>
+            <h3 class="step__title">Origin cocoa</h3>
+            <p class="step__desc">
+              A traceable lot, chosen for character rather than volume.
+            </p>
+          </div>
+          <div class="step">
+            <p class="step__index">02 · PASTE</p>
+            <h3 class="step__title">Worked to a paste</h3>
+            <p class="step__desc">
+              Cocoa worked with a little hot water and sweetness to order.
+            </p>
+          </div>
+          <div class="step">
+            <p class="step__index">03 · IMPASTO</p>
+            <h3 class="step__title">The concentrated base</h3>
+            <p class="step__desc">
+              A smooth, rich Impasto — ready straight, or as the heart of
+              a drink.
+            </p>
+          </div>
+        </div>
+
+        <div class="page-actions page-actions--lg">
+          <a class="btn btn--ghost" href="impasto.html">Watch the full sequence →</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="split">
+          <div class="stack">
+            <p class="page-kicker">Morning at UUUB</p>
+            <h2 class="page-title">A new morning ritual, made from cocoa.</h2>
+            <p class="page-lede">
+              The morning worker spirit is central to UUUB: a thoughtful
+              cocoa drink that fits the trip to work, a short pause before
+              the day, or a conversation at the counter. We want the
+              flavor bold, the sweetness adjustable, and the service quick
+              enough for a real morning routine.
+            </p>
+            <p class="page-lede--muted">
+              Cocoa naturally contains caffeine and theobromine, but UUUB
+              does not claim a guaranteed "no crash," cardiovascular
+              benefit, or breakfast replacement. Any future nutrition
+              claim needs the finished recipe and appropriate review.
+            </p>
+            <div class="page-actions">
+              <a class="btn btn--secondary" href="our-house.html">Read about our house →</a>
+            </div>
+          </div>
+          <div class="panel">
+            <p class="panel-heading">The UUUB ritual</p>
+            <ol class="step-row" style="margin-top: var(--uuub-space-5); grid-template-columns: 1fr;">
+              <li class="step"><span aria-hidden="true">①</span> Choose your origin 🌎</li>
+              <li class="step"><span aria-hidden="true">②</span> Choose your strength 💪</li>
+              <li class="step"><span aria-hidden="true">③</span> Choose your sweetness 🍬</li>
+              <li class="step"><span aria-hidden="true">④</span> Watch the Impasto being made 🥄</li>
+              <li class="step"><span aria-hidden="true">⑤</span> Choose your form — straight, latte, or freddo 🥛🧊</li>
+              <li class="step"><span aria-hidden="true">⑥</span> Enjoy your cocoa 🍫</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="page-head">
+          <p class="page-kicker">Choose an origin</p>
+          <h2 class="page-title">Three origins we'd like to explore first.</h2>
+          <p class="page-lede">
+            UUUB is about discovering the people, places, and specific
+            cocoa lots behind a cup. These are candidate explorations, not
+            confirmed inventory — we'll add producer details and tasting
+            notes only when we can verify and taste the actual cocoa.
+          </p>
+        </div>
+
+        <div class="card-grid">
+          <article class="card">
+            <div class="card__top">
+              <h3 class="card__title">🇬🇩 Grenada</h3>
+              <span class="badge badge--muted">Exploring</span>
+            </div>
+            <p class="card__desc">
+              A candidate origin. We're looking for a suitable Grenadian
+              supplier before describing any lot.
+            </p>
+          </article>
+          <article class="card">
+            <div class="card__top">
+              <h3 class="card__title">🇲🇽 Mexico</h3>
+              <span class="badge badge--muted">Exploring</span>
+            </div>
+            <p class="card__desc">
+              A candidate origin, with cocoa and chocolate-drink traditions
+              that inform the Impasto concept.
+            </p>
+          </article>
+          <article class="card">
+            <div class="card__top">
+              <h3 class="card__title">🇵🇪 Peru</h3>
+              <span class="badge badge--muted">Exploring</span>
+            </div>
+            <p class="card__desc">
+              A candidate origin, and one of the first we'd like to taste
+              and verify.
+            </p>
+          </article>
+        </div>
+
+        <div class="page-actions page-actions--lg">
+          <a class="btn btn--ghost" href="origins.html">Explore the wider cocoa map →</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="page-head">
+          <p class="page-kicker">Three ways to begin</p>
+          <h2 class="page-title">The first drink concepts.</h2>
+          <p class="page-lede">
+            Early drink ideas, not a finished menu. Names and recipes will
+            follow the tasting, not lead it.
+          </p>
+        </div>
+
+        <div class="card-grid">
+          <article class="card">
+            <div class="card__top">
+              <h3 class="card__title">🍫 Impasto</h3>
+              <span class="badge">Concept</span>
+            </div>
+            <p class="card__desc">A small, concentrated cocoa serving.</p>
+          </article>
+          <article class="card">
+            <div class="card__top">
+              <h3 class="card__title">🥛 Impasto Latte</h3>
+              <span class="badge">Concept</span>
+            </div>
+            <p class="card__desc">
+              Impasto with steamed milk or a chosen milk alternative.
+            </p>
+          </article>
+          <article class="card">
+            <div class="card__top">
+              <h3 class="card__title">🧊 Impasto Freddo</h3>
+              <span class="badge">Concept</span>
+            </div>
+            <p class="card__desc">
+              A chilled cocoa drink that keeps the character of the base.
+            </p>
+          </article>
+        </div>
+
+        <div class="page-actions page-actions--lg">
+          <a class="btn btn--primary" href="drinks.html">Build a sample cup →</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="panel">
+          <p class="page-kicker">Mission and future house</p>
+          <h2 class="page-title">
+            The world's golden standard for cocoa.
+          </h2>
+          <p class="page-lede">
+            Our mission: to become the world's golden standard for cocoa
+            by discovering exceptional origins, perfecting the Impasto,
+            and making a remarkable cup of cocoa a beloved daily ritual. A
+            UUUB Cocoa House would bring together a specialty beverage
+            bar, a chocolate house, and an origin-discovery space —
+            <strong>COCOA → PASTE → IMPASTO → DRINK</strong>, made
+            visible at the counter.
+          </p>
+          <div class="page-actions">
+            <a class="btn btn--secondary" href="our-house.html">Meet the house and team →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tight">
+      <div class="container">
+        <div class="panel" style="text-align: center;">
+          <h2 class="page-title">Follow the journey</h2>
+          <p class="page-lede" style="margin-inline: auto;">
+            Concept in development. There's no signup or storefront yet —
+            the best next step is exploring the site itself.
+          </p>
+          <div class="page-actions" style="justify-content: center;">
+            <a class="btn btn--primary" href="impasto.html">Explore the ritual →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <div class="stack">
+        <p class="site-footer__brand">UUUB Cocoa House 🍫 — One ritual. A world of cocoa.</p>
+        <p class="site-footer__meta">Concept in development. No café, products, or launch date confirmed yet.</p>
+      </div>
+      <nav aria-label="Footer">
+        <ul class="site-footer__links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="impasto.html">Impasto</a></li>
+          <li><a href="origins.html">Origins</a></li>
+          <li><a href="drinks.html">Drinks</a></li>
+          <li><a href="our-house.html">Our House</a></li>
+          <li><a href="https://github.com/Sukonik/uuub">Repo</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
